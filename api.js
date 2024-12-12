@@ -41,6 +41,8 @@ function displayUOBdata(results) {
         tableRow.innerHTML = `
             <td>${item.colleges}</td>
             <td>${item.the_programs}</td>
+             <td>${item.year}</td>
+            <td>${item.number_of_students}</td>
         `;
         // Append the new row to the table body
         tableBody.appendChild(tableRow);
