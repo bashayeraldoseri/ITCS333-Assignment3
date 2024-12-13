@@ -7,7 +7,7 @@ async function fetchUOBdata() {
         // Fetch data from the provided API URL
         const response = await fetch(url);
 
-        // Check if the response is successful (status code 200)
+        // Check if the response is successful (status code 200-299)
         if (!response.ok) {
             console.error('Response not OK'); // Log an error if the response is not successful
             return;
